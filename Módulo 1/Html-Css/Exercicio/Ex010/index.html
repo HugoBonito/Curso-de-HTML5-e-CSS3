@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usar Links</title>
+</head>
+
+<body>
+    <h1>Usar Links Externos</h1>
+    <p>Para transformar texto em um link temos de usar a tag <mark>&lt;a&gt;</mark>(âncora) no texto que quero usar para
+        o link.</p>
+
+    <p>Você pode usar o meu <a href="https://github.com/gustavoguanabara/html-css/tree/master/" target="_blank"
+            rel="external">repositório público no GitHub</a>.</p>
+    <p>Você também pode acessar o meu <a href="https://youtube.com/cursoemvideo/">canal gratuito do Youtube</a></p>
+
+    <p>Quando criamos links podemos adicionar o target que serve para criar uma nova janela
+        <mark>(target="_blank")</mark> ou então para ser na própria janela aberta <mark>(target="_self") </mark>, quando
+        o leitor clica no link em questão, por norma o _self é o default. </p>
+
+    <p>Ao adicionar o rel em um link damos a entender ao Google que o link ou é para continuar para o documento
+        atual<mark>((rel="next") ou prev)</mark>, chamamos a isso link interno ou atual, ou então para uma página
+        externa <mark>(rel="external")</mark>, que chamamos link externo.</p>
+
+    <h1>Links Internos</h1>
+    <p>Esta é a primeira página do meu site. Se você quiser, pode acessar a minha <a href="pag002.html" rel="next"
+            target="_self">segunda página</a>.</p>
+
+    <p>Você também pode acessar a nossa <a href="Noticias/pag003.html" rel="next" target="_self">página de notícias.</a>
+    </p>
+
+    <h1>Links de Download</h1>
+    <!-- https://www.iana.org/assignments/media-types/media-types.xhtml -->
+    <ul>
+        <li><a href="livro/01 - História da Internet Teste.pdf" download="01 - História da Internet Teste.pdf" type="application/pdf">Baixar o Livro em PDF</a></li>
+        
+        <li><a href="livro/Meu Livro.zip" download="Meu Livro.zip" type="application/zip">Livro compactado em ZIP</a></li>
+    </ul>
+</body>
+
+</html>

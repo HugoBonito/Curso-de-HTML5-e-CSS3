@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+    <style>
+        mark{
+            background-color: rgb(255, 97, 97);
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+
+    <h2>Negrito / Destaque</h2>
+    <p>Nesta frase temos um <b>termo em negrito</b> usando a tag <mark>&lt;b&gt;</mark> (não semântica).</p>
+
+    <p>Nesta frase, tenho um <strong>termo em destaque</strong> usando a tag <mark>&lt;strong&gt;</mark> (semântica).</p>
+
+    <h2>Itálico / Enfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag <mark>&lt;i&gt;</mark> (não semântica).</p>
+
+    <p>Nesta frase, temos um <em>termos em ênfase</em> usando a tag <mark>&lt;em&gt;</mark> (semântica).</p>
+
+    <h2>Texto Marcado</h2>
+    <p>Podemos criar um <mark style="background-color: 
+    lavender;">texto marcado</mark> usando a tag <mark>&lt;mark&gt;</mark>.</p>
+    <p>E no outro parágrafo, temos outro <mark style="background-color: bisque;">texto marcado</mark> no final.</p>
+    <p>Outra forma de mudar a cor da marca pode ser com a <mark style="background-color: bisque;">tag &lt;style&gt; no &lt;head&gt;</mark> assim a cor muda para todas as marcas que colocar e é bem mais facil.</p>
+
+    <h2>Texto Grande e Pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno neste</small> parágrafo.</p> <!-- A tag big está em vermelho pois é obsoleta o que pode deixar de funcionar nos proximos tempos, então é necessário não usar este tipo de tags-->
+
+    <h2>Texto Apagado</h2>
+    <p>Podemos marcar um <del>texto como excluido</del> para indicar que ele deve ser lido mas não considerado, usando a tag <mark>&lt;del&gt;</mark>.</p>
+
+    <h2>Texto Inserido</h2>
+    <p>Podemos marcar um <ins>texto como inserido</ins> para dar enfase e indicar que ele foi adicionado depois, usando a tag <mark>&lt;ins&gt;</mark> (semântica).</p>
+    <p>Existe também o <u>sublinhado</u> com a tag <mark>&lt;u&gt;</mark> (não semântica).</p>
+
+    <h2>Texto Sobrescrito</h2>
+    <p>Para inserir coisas do tipo: x<sup>20</sup>+3, usando a tag <mark>&lt;sup&gt;</mark>.</p>
+    <h2>Texto Subscrito</h2>
+    <p>Para inserir coisas do tipo: H<sub>2</sub>O, usando a tag <mark>&lt;sub&gt;</mark>.</p>
+</body>
+</html>
